@@ -1,0 +1,417 @@
+ .welcome-banner {
+    background-color: #fff0df;
+    color: #7b3f24;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.welcome-banner h2 {
+    color: #8b4513;
+}
+
+.welcome-banner p {
+    line-height: 1.7;
+}
+
+.welcome-banner .button {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.welcome-banner {
+    background-color: #fff0df;
+    color: #7b3f24;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.welcome-banner h2 {
+    color: #8b4513;
+}
+
+.welcome-banner p {
+    line-height: 1.7;
+}
+
+.welcome-banner button {
+    background-color: #8b4513;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.welcome-banner button:hover {
+    background-color: #5c2e13;
+}
+
+#welcomeMessage {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* SHOPPING CART */
+
+#shopping-cart {
+    background-color: #fff5eb;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #e8c9a8;
+}
+
+#shopping-cart h2 {
+    color: #7b3f24;
+}
+
+.cart-product {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+#shopping-cart button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#shopping-cart button:hover {
+    background-color: #5c2e13;
+}
+
+#cart-total {
+    color: #8b4513;
+    font-weight: bold;
+}
+*  {  
+    box-sizing: border-box; 
+    margin: 0;
+     padding: 0; 
+}
+ 
+ body { 
+font-family: Arial, sans-serif; 
+ background-color: #fff8f0; 
+ color: #4a2c20; 
+ line-height: 1.6;
+ }
+  
+  header h1 { 
+    font-size: 36px; 
+    margin-bottom: 5px;
+  } 
+  
+   header p{ 
+    font-size: 18px;
+   } 
+    
+   nav{ 
+    background-color: #f4c2c2; 
+    text-align: center; 
+    padding: 15px;
+   } 
+    
+   nav a:hover{ 
+    text-decoration: underline;
+   } 
+
+    main{ 
+        max-width: 1000px; 
+        margin: 30px auto; 
+        padding: 30px; 
+        background-color: white; 
+        border-radius: 10px;
+    }
+     
+     h2{ 
+        color: #8b5e3c; 
+        margin-bottom: 20px ;
+     } 
+
+      h3{ 
+        color: #8b5e3c; 
+        margin-top: 20px; 
+        margin-bottom: 10px;
+      } 
+
+       p{ 
+        margin-bottom: 15px;
+       } 
+
+       section {  
+    margin-bottom: 25px; 
+    padding: 20px; 
+    border: 1px solid #e6cfc3;
+ border-radius:8px ;
+       } 
+        
+       input, 
+       select, 
+       textarea { 
+width: 100% ; 
+max-width: 600px; 
+padding: 10px; 
+margin-top: 5px; 
+border-radius: 5px;
+       } 
+
+        button{ 
+            background-color: #8b5e3c; 
+           color: white; 
+            border: none; 
+            padding: 12px 25px; 
+            border-radius: 5px; 
+            cursor: pointer;
+        } 
+         
+        button:hover { 
+background-color: #6f452c;
+        } 
+
+         main a { 
+          color: #8b5e3c; 
+          font-weight: bold;
+         } 
+          
+         footer { 
+background-color: #8b5e3c ; 
+color: white; 
+text-align: center; 
+padding: 20px; 
+margin-top: 30px;
+         } 
+          
+         @media (max-width: 600px){ 
+          nav a { 
+            display: block; 
+            margin: 8px;
+          }
+         main { 
+          margin: 15px; 
+          padding: 20px;
+         } 
+          
+         header h1 { 
+          font-size: 28px;
+         } 
+        } 
+         
+
+          
+        section img { 
+width: 250px; 
+height: 200px; 
+object-fit: cover; 
+border-radius: 10px; 
+margin: 10px;
+        }
+
+
+       
+ .button {
+    display: inline-block;
+    background-color: #8B4513;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #5C2E0B;
+}       
+
+
+#shopping-cart {
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+#shopping-cart h2 {
+    color: #8b3a62;
+}
+
+.cart-product {
+    background-color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #e5c5d4;
+}
+
+button {
+    background-color: #8b3a62;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #b45b83;
+}
+
+#shopping-cart {
+    background-color: #fff0f5;
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.cart-product {
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #e5c5d4;
+    border-radius: 8px;
+}
+
+#shopping-cart button {
+    background-color: #8b3a62;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#shopping-cart button:hover {
+    background-color: #b45b83;
+}
+
+
+/* ENQUIRY FORM ERROR MESSAGES */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+.error {
+    color: red;
+    font-size: 13px;
+    display: block;
+    margin-top: 5px;
+}
+
+#formMessage {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+/* Enquiry Form Styling */
+
+#enquiryForm {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#enquiryForm label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#enquiryForm input,
+#enquiryForm select,
+#enquiryForm textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+#enquiryForm input:focus,
+#enquiryForm select:focus,
+#enquiryForm textarea:focus {
+    outline: none;
+    border-color: #a0522d;
+}
+
+.error-message {
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#successMessage {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#enquiryForm button {
+    background-color: #8b4513;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#enquiryForm button:hover {
+    background-color: #5c2e0b;
+}
+
+
+/* SHOPPING CART */
+
+#shopping-cart {
+    background-color: #fff5eb;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 1px solid #e8c9a8;
+}
+
+#shopping-cart h2 {
+    color: #7b3f24;
+}
+
+.cart-product {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+#shopping-cart button {
+    background-color: #8b4513;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#shopping-cart button:hover {
+    background-color: #5c2e13;
+}
+
+#cart-total {
+    color: #8b4513;
+    font-weight: bold;
+}

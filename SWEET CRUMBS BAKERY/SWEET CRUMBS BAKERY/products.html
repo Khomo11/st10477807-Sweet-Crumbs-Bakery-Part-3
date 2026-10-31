@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Shop delicious birthday cakes, cupcakes, fresh bread, muffins and biscuits at Sweet Crumbs Bakery.">
+    <meta name="keywords" content="bakery, birthday cakes, cupcakes, bread, muffins, biscuits">
+    <meta name="author" content="Sweet Crumbs Bakery">
+
+    <title>Our Products | Sweet Crumbs Bakery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sweet Crumbs Bakery</h1>
+        <p>Freshly Baked With Love</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="products.html">Products</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <hr>
+
+    <main>
+
+        <h2>Our Products</h2>
+
+        <p>
+            At Sweet Crumbs Bakery, we offer a variety
+            of fresh and delicious baked products suitable
+            for everyday enjoyment and special occasions.
+        </p>
+
+        <!-- BIRTHDAY CAKES -->
+        <section>
+            <h3>Birthday Cakes</h3>
+            <img src="images/cake.jpg.jpg" alt="Birthday cake">
+            <p>Customised cakes for birthdays and special celebrations.</p>
+            <p><strong>R350</strong></p>
+
+            <button onclick="addToCart('Birthday Cake', 350)">
+                Add to Cart
+            </button>
+        </section>
+
+        <hr>
+
+        <!-- CUPCAKES -->
+        <section>
+            <h3>Cupcakes</h3>
+            <img src="images/cupcakes.jpg.jpg" alt="Fresh cupcakes">
+            <p>Freshly baked cupcakes available in different flavours.</p>
+            <p><strong>R15 each</strong></p>
+
+            <button onclick="addToCart('Cupcakes', 15)">
+                Add to Cart
+            </button>
+        </section>
+
+        <hr>
+
+        <!-- FRESH BREAD -->
+        <section>
+            <h3>Fresh Bread</h3>
+            <img src="images/bread.jpg.jpg" alt="Fresh bread">
+            <p>Freshly baked bread prepared daily.</p>
+            <p><strong>R20 per loaf</strong></p>
+
+            <button onclick="addToCart('Fresh Bread', 20)">
+                Add to Cart
+            </button>
+        </section>
+
+        <hr>
+
+        <!-- MUFFINS -->
+        <section>
+            <h3>Muffins</h3>
+            <img src="images/muffins.jpg.jpg" alt="Fresh muffins">
+            <p>Soft and delicious muffins available in different flavours.</p>
+            <p><strong>R18 each</strong></p>
+
+            <button onclick="addToCart('Muffins', 18)">
+                Add to Cart
+            </button>
+        </section>
+
+        <hr>
+
+        <!-- BISCUITS -->
+        <section>
+            <h3>Biscuits</h3>
+            <img src="images/biscuits.jpg.jpg" alt="Homemade biscuits">
+            <p>Fresh homemade biscuits perfect for snacks and events.</p>
+            <p><strong>R50 per packet</strong></p>
+
+            <button onclick="addToCart('Biscuits', 50)">
+                Add to Cart
+            </button>
+        </section>
+
+        <hr>
+
+        <!-- SHOPPING CART -->
+        <section id="shopping-cart">
+
+            <h2>My Shopping Cart</h2>
+
+            <div id="cart-items">
+                <p>Your cart is currently empty.</p>
+            </div>
+
+            <h3>Total Price: R<span id="cart-total">0.00</span></h3>
+
+            <button onclick="clearCart()">
+                Clear Cart
+            </button>
+
+        </section>
+
+        <p>
+            <a href="enquiry.html" class="button">
+                Make an Enquiry
+            </a>
+        </p>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

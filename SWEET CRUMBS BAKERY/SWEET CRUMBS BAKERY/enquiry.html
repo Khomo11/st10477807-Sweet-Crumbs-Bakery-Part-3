@@ -1,0 +1,96 @@
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Enquiry - Sweet Crumbs Bakery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sweet Crumbs Bakery</h1>
+        <p>Freshly Baked With Love</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="products.html">Products</a>
+        <a href="enquiry.html">Enquiry</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+
+        <h2>Make an Enquiry</h2>
+
+        <p>
+            Do you have questions about our products?
+            Complete the form below and send us your enquiry.
+        </p>
+
+        <form id="enquiryForm" novalidate>
+
+            <label for="name">Full Name:</label><br>
+            <input type="text" id="name" name="name"
+                placeholder="Enter your full name">
+            <small id="nameError" class="error-message"></small>
+            <br>
+
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"
+                placeholder="Enter your email address">
+            <small id="emailError" class="error-message"></small>
+            <br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone"
+                placeholder="Enter your 10-digit phone number"
+                maxlength="10" inputmode="numeric">
+            <small id="phoneError" class="error-message"></small>
+            <br>
+
+            <label for="product">Select a Product:</label><br>
+
+            <select id="product" name="product">
+                <option value="">-- Select a Product --</option>
+                <option value="cakes">Cakes</option>
+                <option value="cupcakes">Cupcakes</option>
+                <option value="bread">Bread</option>
+                <option value="biscuits">Biscuits</option>
+                <option value="other">Other</option>
+            </select>
+
+            <small id="productError" class="error-message"></small>
+            <br>
+
+            <label for="message">Your Enquiry:</label><br>
+
+            <textarea id="message" name="message"
+                rows="6" placeholder="Write your enquiry here..."></textarea>
+
+            <small id="messageError" class="error-message"></small>
+            <br>
+
+            <p id="successMessage" aria-live="polite"></p>
+
+            <button type="submit">Submit Enquiry</button>
+
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sweet Crumbs Bakery. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
